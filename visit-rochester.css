@@ -1,0 +1,152 @@
+body {
+  font-family: arial;
+  background-color: #564E58;
+}
+
+p {
+  margin: 0;
+}
+
+.visit-rochester-container {
+  height: 300px;
+  width: 100%;
+  background-image: url("photo-1566062005232-2e9d948d136b.avif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  border: none;
+  background-color: lightblue;
+  padding: 5px 15px;
+  margin-top: 100px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+h1:hover {
+  opacity: 0.8;
+}
+
+h4 {
+  max-width: 400px;
+  margin-top: 60px;
+  text-align: center;
+  text-shadow: 0px 0px 5px gray;
+  color: white;
+}
+
+.top-activities-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.activities-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  
+}
+
+.garbage-plate-img,
+.eastman-img,
+.susan-b-img,
+.jazz-fest-img {
+  width: 140px;
+  border-radius: 70px;
+  margin-top: 20px;
+}
+
+.garbage-plate-img {
+  margin-top: 20px;
+}
+
+
+
+.activity-one-container,
+.activity-two-container,
+.activity-three-container,
+.activity-four-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  padding: 10px 15px;
+  margin-right: 20px;
+  background-color: #D7DAE5;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+  transition: opacity 0.15s;
+}
+
+.activity-one-container:hover,
+.activity-two-container:hover,
+.activity-three-container:hover,
+.activity-four-container:hover {
+  opacity: 0.8;
+}
+
+.activity-one-container:active,
+.activity-two-container:active,
+.activity-three-container:active,
+.activity-four-container:active {
+  opacity: 0.6;
+}
+
+h3 {
+  text-align: center;
+}
+
+.guide-container-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.guide-card {
+  display: flex;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+}
+
+.guide-image {
+  width: 150px;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.guide-container-row {
+  border: 5px solid white;
+  border-radius: 20px;
+  width: 500px;
+  padding: 10px;
+  margin: auto;
+  
+}
+
+.guide-info-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+
+}
+
+.guide-title {
+  font-weight: bold;
+  font-size: 40px;
+}
+
